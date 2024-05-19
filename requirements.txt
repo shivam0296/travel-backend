@@ -34,4 +34,4 @@ importlib-resources==6.1.1
 inflection==0.5.1
 interchange==2021.0.4
 pymysql==1.0.3
-mqtt_com>=1.0.0
+mqtt_com>=0.0.0
