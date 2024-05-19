@@ -35,3 +35,4 @@ inflection==0.5.1
 interchange==2021.0.4
 pymysql==1.0.3
 requests==2.26.0
+paho-mqtt==1.5.1
