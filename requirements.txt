@@ -1,6 +1,5 @@
 absl-py==1.4.0
 afinn==0.1
-anaconda-navigator==2.3.0
 anndata==0.10.5.post1
 annotated-types==0.6.0
 appdirs==1.4.4
