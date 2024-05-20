@@ -22,6 +22,7 @@ The Travel Buddy website operates on a technology stack consisting of React for 
 
 GitHub Link to access the code:
 • Backend app: https://github.com/shivam0296/travel-backend
+
 • Frontend app: https://github.com/shivam0296/travel-app  
 
 References:
