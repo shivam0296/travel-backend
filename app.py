@@ -1,3 +1,8 @@
+"""
+Travel Buddy Backend Operations.
+"""
+
+
 from flask import Flask, jsonify, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
 import datetime
