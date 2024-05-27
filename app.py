@@ -9,7 +9,6 @@ from clear_trip import MqttClear
 from flask_cors import CORS
 pymysql.install_as_MySQLdb()
 
-
 app = Flask(__name__)
 CORS(app)
 
@@ -19,7 +18,6 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 app.app_context().push()
 ma = Marshmallow(app)
-
 
 
 class Trips(db.Model):
@@ -134,7 +132,6 @@ def location_trips():
     print(res)
     return jsonify(data)
 
-
 def get_curr_location():
     # Get user's current location coordinates using Geolocation API
     response = requests.get('https://ipinfo.io/json')
@@ -177,5 +174,4 @@ if __name__ == '__main__':
     #     db.create_all()
     #     print("created db")
     app.run()
-
-
+    
